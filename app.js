@@ -45,7 +45,7 @@ function asignarTextoElemento(elemento, texto)
 
 function generarNumeroSecreto()
 {
-    if(numerosSorteados.length = numeroMaximo)
+    if(numerosSorteados.length == numeroMaximo)
     {
         asignarTextoElemento("p", "Ya no hay más números");
     }
